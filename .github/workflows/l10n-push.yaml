@@ -14,7 +14,7 @@ name: Push to Crowdin
 
 on:
   push:
-    branches: [main]
+    branches: [master]
     paths:
       - ".github/workflows/l10n-push.yaml"
       - "crowdin.yaml"
